@@ -164,7 +164,7 @@ class OnlineAdaptiveMONetBasedGraphCut(LikelihoodBasedSegmentation):
         num_layers=1,
         kernel_size=9,
         num_filters=128,
-        scales=[1, 3, 9, 9],
+        scales=[1, 3, 5, 9],
         train_feat=True,
         model_path=None,
         config=None,
