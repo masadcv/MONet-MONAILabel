@@ -1,7 +1,7 @@
 # Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation (MONet)
 This repository provides source code for MONet, a multi-scale online likelihood method for scribble-based interactive segmentation. If you use this code, please cite the following paper:
 
-> Asad, Muhammad, Helena Willaims, Indrajeet Mandal, Sarim Ather, Jan Deprest, Jan D'hooge, and Tom Vercauteren 
+> Asad, Muhammad, Helena Williams, Indrajeet Mandal, Sarim Ather, Jan Deprest, Jan D'hooge, and Tom Vercauteren 
 >"Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation" 
 >arXiv preprint arXiv:TODO (2023).
 #  Introduction
@@ -71,7 +71,7 @@ Pre-print of MONet can be found at: TODO: [Adaptive Multi-scale Online Likelihoo
 
 If you use MONet in your research, then please cite:
 
-> Asad, Muhammad, Helena Willaims, Indrajeet Mandal, Sarim Ather, Jan Deprest, Jan D'hooge, and Tom Vercauteren 
+> Asad, Muhammad, Helena Williams, Indrajeet Mandal, Sarim Ather, Jan Deprest, Jan D'hooge, and Tom Vercauteren 
 >"Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation" 
 >arXiv preprint arXiv:TODO (2023).
 
@@ -79,7 +79,7 @@ BibTeX:
 ```
 @article{asad2023monet,
   title={Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation},
-  author={Asad, Muhammad and Willaims, Helena and  Mandal, Indrajeet and Ather, Sarim and Deprest, Jan and D'hooge, Jan and Vercauteren, Tom},
+  author={Asad, Muhammad and Williams, Helena and  Mandal, Indrajeet and Ather, Sarim and Deprest, Jan and D'hooge, Jan and Vercauteren, Tom},
   journal={arXiv preprint arXiv:TODO},
   year={2022}
 }
