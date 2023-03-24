@@ -81,6 +81,6 @@ BibTeX:
   title={Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation},
   author={Asad, Muhammad and Williams, Helena and  Mandal, Indrajeet and Ather, Sarim and Deprest, Jan and D'hooge, Jan and Vercauteren, Tom},
   journal={arXiv preprint arXiv:TODO},
-  year={2022}
+  year={2023}
 }
 ```
