@@ -5,7 +5,11 @@ This repository provides source code for MONet, a multi-scale online likelihood 
 >"[Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation](https://arxiv.org/abs/2303.13696)" 
 >arXiv preprint arXiv:2303.13696 (2023).
 #  Introduction
-TODO: Add introduction
+Existing interactive segmentation methods leverage automatic segmentation and user interactions for label refinement, significantly reducing the annotation workload compared to manual annotation. However, these methods lack quick adaptability to ambiguous and noisy data, which is a challenge in CT volumes containing lung lesions from COVID-19 patients. In this work, we propose an adaptive multi-scale online likelihood network (MONet) that adaptively learns in a data-efficient online setting from both an initial automatic segmentation and user interactions providing corrections. We achieve adaptive learning by proposing an adaptive loss that extends the influence of user-provided interaction to neighboring regions with similar features. In addition, we propose a data-efficient probability-guided pruning method that discards uncertain and redundant labels in the initial segmentation to enable efficient online training and inference. Our proposed method was evaluated by an expert in a blinded comparative study on COVID-19 lung lesion annotation task in CT. Our approach achieved 5.86% higher Dice score with 24.67% less perceived NASA-TLX workload score than the state-of-the-art.
+
+![monet-flowchart](https://raw.githubusercontent.com/masadcv/MONet-MONAILabel/main/data/model-MONet.png)
+
+The flowchart above shows (a) training and inference of MONet using adaptive loss and probability-guided pruning; (b) architecture of our multi-scale online likelihood network (MONet).
 
 Further details about MONet can be found in our paper linked above.
 
@@ -35,6 +39,7 @@ More detailed documentation on setting up MONAI Label can be found at: [https://
 
 # Pretrained Model Download
 TODO: Add links to pretrained models
+
 # Running the MONet App
 The MONet MONAI Label App runs as MONAI Label server and connects to a MONAI Label client plugin (3D Slicer/OHIF)
 
