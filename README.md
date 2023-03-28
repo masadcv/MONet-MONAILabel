@@ -72,7 +72,7 @@ On the client side, run slicer and load MONAILabel extension:
 <!-- ![econet-preview](./data/econet_preview.png) -->
 
 # Citing MONet
-Pre-print of MONet can be found at: TODO: [Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation](https://arxiv.org)
+Pre-print of MONet can be found at: [Adaptive Multi-scale Online Likelihood Network for AI-assisted Interactive Segmentation](https://arxiv.org/abs/2303.13696)
 
 If you use MONet in your research, then please cite:
 
